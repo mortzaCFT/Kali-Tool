@@ -50,4 +50,4 @@ And that's it, now you're ready to fire up the tool!
 Distributed under the GPL V3 License. See `LICENSE` for more information
 
 ## contact to me
-Discord :
+Discord : mortza#3700
