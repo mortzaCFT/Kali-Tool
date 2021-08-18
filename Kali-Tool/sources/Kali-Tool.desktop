@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Kali-Tool
+Encoding=UTF-8
+Exec=/usr/share/kali-menu/exec-in-shell "sudo Kali-Tool --help"
+Icon=/usr/share/Kali-Tool/icons/Kali-Tool.png
+StartupNotify=false
+Terminal=true
+Type=Application
+X-Kali-Package=Kali-Tool
