@@ -1,12 +1,15 @@
-      _  __    _    _   ___   _ ___ ___   ___  _
-     | |/ /   / \  | | |_ _|  | _ _/ _ \ / _ \| |
-     | ' /   / _ \ | |  | |     | || | | | | |  |
-     | . \  / ___ \| |_ | |     | || |_| | |_| ||___
-     |_|\_\/_/   \_\___|__|     |_| \___/ \___/|___|
+# _  __    _    _     ___   _____ ___   ___  _
+# | |/ /   / \  | |   |_ _| |_   _/ _ \ / _ \| |
+# | ' /   / _ \ | |    | |    | || | | | | | | |
+# | . \  / ___ \| |___ | |    | || |_| | |_| | |___
+# |_|\_\/_/   \_\_____|___|   |_| \___/ \___/|_____|
 
-CODED BY "MORTZA"
 
-<!-- FEATURES -->
+<!-->CODED BY "mortza"
+<!--The Base Tool Of The Kali-Linox-->
+<!--version 0.1 -->
+
+
 ## Features
 
  * Log killer
@@ -16,26 +19,27 @@ CODED BY "MORTZA"
  * Anti cold boot
  * Timezone changer
  * Hostname changer
-
+ * Fake Ap{got issus :/}
  
 ### Installation
 
-1. Clone the repo
+1. Clone 
  
-   ```sh
    git clone https://github.com/Pxmortza/Kali-Tool
-   ```
+
 2. Install makefile
  
-   ```sh
    sudo make install
-   ```
-And that's it, now you're ready to fire up the tool!
+
+   [option]you can install old version,open folder{old version}and select your version and Install makefile :)
+
 
 ## Usage
- After completing setup, run the application by typing "kali-tool" in the search menu or by typing "sudo kali-tool --help" in a terminal 
+ After installing the Tool, run the application by typing "kali-tool"  in the search menu.
+  Or:
+ typing "sudo kali-tool --help" in a terminal.
 
-   ```
+   
 [+] Usage : sudo KALI TOOL [option]
 
  --start  :   It will make backups and start the program.
@@ -43,11 +47,20 @@ And that's it, now you're ready to fire up the tool!
  --status :   Provides information about working status.
  --fix    :   Used to repair the system in case of a possible bug.
  --help   :   This shows the menu.
-   ```
+   
 
-   ## License
+## NEW,ADDons
+* added FakeAP: It deauthentificate all users of the network, hoping to connect to FakeAP and enter the password.
+* added Hostname changer: the hostname changer XD.This changer your Operation system name(for example,you got macOS11,start your changer and take effect.)
+COMING S00N...
 
-Distributed under the GPL V3 License. See `LICENSE` for more information
+
+ ## License
+
+Distributed under the GPL V3 License. See `LICENSE` for more information.
 
 ## contact to me
 Discord : mortza#3700
+
+
+GOOD,LUCK...
