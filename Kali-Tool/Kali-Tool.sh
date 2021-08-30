@@ -23,7 +23,7 @@ src_check() {
                 err "Please run this command:\n'${GREEN}git clone https://github.com/Pxmortza/Kali-Tool && cd Kali-Tool && sudo make reinstall${RESET}'"
         fi
 }
-src_check fix log_killer ip_changer dns_changer mac_changer anti_cold_boot hostname_changer timezone_changer 
+src_check fix log_killer ip_changer dns_changer mac_changer anti_cold_boot hostname_changer timezone_changer Fake_AP
 
 #check dependences function
 dep_check() {
@@ -46,7 +46,7 @@ if [ ! -f $BACKUPDIR/tool_fix_backups.tar.gz ]; then
 	get_backups
 fi
 
-options=("Log killer" "Ip changer" "Dns changer" "Mac changer" "Timezone changer" "Hostname changer"  "Anti cold boot")
+options=("Log killer" "Ip changer" "Dns changer" "Mac changer" "Timezone changer" "Hostname changer"  "Anti cold boot" "Fake_AP")
 
 menu() {
     info "Avaliable features:\n"
@@ -83,7 +83,7 @@ stop(){
 #detect enable features and stop
 if $(cat $SRCDIR/sources/config | grep Enable &>/dev/null);then
 
-	options=("anti_mitm" "ip_changer" "dns_changer" "mac_changer" "timezone_changer" "hostname_changer" )
+	options=("anti_mitm" "ip_changer" "dns_changer" "mac_changer" "timezone_changer" "hostname_changer" "Fake_AP" )
 
 
 	}
@@ -109,6 +109,7 @@ msg "Kali-Tool status:
  ${GREEN}Mac changer           :${RESET} $mac_changer_status
  ${GREEN}Timezone changer      :${RESET} $timezone_changer_status
  ${GREEN}Hostname changer      :${RESET} $hostname_changer_status
+ ${GREEN}Fake AP               :${RESET} $fakeap_status
 
 }
 
@@ -160,7 +161,7 @@ fi
         exit 1
         ;;
     *)
-          warn "Whoami: Invalid option ${RED}'$1'${RESET}"
+          warn "tool: Invalid option ${RED}'$1'${RESET}"
           info "Run ${GREEN}'Kali-Tool --help'${RESET} parameter for more information."
           exit 1
         ;;
@@ -172,3 +173,5 @@ fi
 main "${@}"
 
 # EOF
+
+
