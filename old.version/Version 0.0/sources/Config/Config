@@ -1,0 +1,54 @@
+#!/bin/bash
+
+# colors
+GREEN='\033[0;36m'
+
+
+# backup dir
+BACKUPDIR="/usr/share/Kali-Tool/backups"
+SRCDIR="/usr/share/Kali-Tool/sources"
+
+# tor config file
+TORRC="/etc/tor/torrc"
+tor_uid="$(id -u debian-tor)"
+
+#Defaults
+ip_changer_status="Disable"
+dns_changer_status="Disable"
+mac_changer_status="Disable"
+timezone_changer_status="Disable"
+hostname_changer_status="Disable"
+
+#print error, warning, message, info
+
+err() {
+    echo -e "${GREEN}[-]${RESET} ${@}"
+    exit 1
+}
+warn() {
+    echo -e "${GREEN}[!]${RESET} ${@}"
+}
+msg() {
+    echo -e "${GREEN}[+]${RESET} ${@}"
+}
+info() {
+    echo -e "${GREEN}[*]${RESET} ${@}"
+}
+
+# read input
+input() {
+echo -ne "
+${BLUEB}:: Select the options you want and then press enter ::${RESET}${GREEN}\n\n┌─[tool]─[~]\n└─╼ $ ${RESET}"
+}
+
+# print banner
+banner() {
+clear
+echo -e "${green}  
+ _  __    _    _     ___   _____ ___   ___  _
+| |/ /   / \  | |   |_ _| |_   _/ _ \ / _ \| |
+| ' /   / _ \ | |    | |    | || | | | | | | |
+| . \  / ___ \| |___ | |    | || |_| | |_| | |___
+|_|\_\/_/   \_\_____|___|   |_| \___/ \___/|_____|
+${RESET}"
+}
