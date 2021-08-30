@@ -18,6 +18,7 @@ dns_changer_status="Disable"
 mac_changer_status="Disable"
 timezone_changer_status="Disable"
 hostname_changer_status="Disable"
+fake_ap_status="Disable"
 #print error, warning, message, info
 
 err() {
