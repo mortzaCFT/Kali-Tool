@@ -1,8 +1,8 @@
-# _  __    _    _     ___   _____ ___   ___  _
-# | |/ /   / \  | |   |_ _| |_   _/ _ \ / _ \| |
-# | ' /   / _ \ | |    | |    | || | | | | | | |
-# | . \  / ___ \| |___ | |    | || |_| | |_| | |___
-# |_|\_\/_/   \_\_____|___|   |_| \___/ \___/|_____|
+#   _   __     _      _          ____     ____ _____   _____ __
+#  | |_/ /     / \     | |        |_ _|     |___|___/_\____/_\_| |
+#  | '  /     / _ \    | |         |  |       | |    |   | |  | |   | |   | |
+#  | .  \    / ___ \  | |____    | |       |  |   |   |_|  | |   |_|   | |_____
+#  |_|\_\_/_/   \_\ |_|_____||___|     |_|    \_____/_\ ____/|_|____|
 
 
 <!-->CODED BY "mortza"
@@ -21,7 +21,7 @@
  * Hostname changer
  * Fake Ap{got issus :/}
  
-### Installation
+ ### Installation
 
 1. Clone 
  
@@ -31,7 +31,7 @@
  
    sudo make install
 
-   [option]you can install old version,open folder{old version}and select your version and Install makefile :)
+   [option]you can install old version,open folder{old version}, select your version and Install makefile :)
 
 
 ## Usage
@@ -52,10 +52,21 @@
 ## NEW,ADDons
 * added FakeAP: It deauthentificate all users of the network, hoping to connect to FakeAP and enter the password.
 * added Hostname changer: the hostname changer XD.This changer your Operation system name(for example,you got macOS11,start your changer and take effect.)
+* installing in source,view your version installing after install.
 COMING S00N...
 
 
- ## License
+## Bug && Issus
+
+- [x] Banner in Terminal(in config Problem not working :/)
+- [ ] Installing on Kali-WSL(windows 10,wsl)-->(error make file..)
+- [ ] Fake_AP status
+- [x] anti_cold_boot status
+- [x] fix version install 0.1
+- [ ] in kali_wsl anti_cold_boot is notworking(got error: permission denied)
+
+
+## License
 
 Distributed under the GPL V3 License. See `LICENSE` for more information.
 
