@@ -1,4 +1,3 @@
-
 <!-->CODED BY "mortza"
 <!--->The Base Tool Of The Kali-Linox
 <!---->version 0.1 
@@ -10,7 +9,7 @@
  * IP changer
  * Dns changer
  * Mac changer
- * Anti cold boot
+ * Anti cold boot 
  * Timezone changer
  * Hostname changer
  * Fake Ap{got issus :/}
@@ -46,7 +45,8 @@
 ## NEW,ADDons
 * added FakeAP: It deauthentificate all users of the network, hoping to connect to FakeAP and enter the password.
 * added Hostname changer: the hostname changer XD.This changer your Operation system name(for example,you got macOS11,start your changer and take effect.)
-* installing in source,view your version installing after install.
+* installing in source,view your version installing after install. 
+
 COMING S00N...
 
 
@@ -57,7 +57,7 @@ COMING S00N...
 - [ ] Fake_AP status
 - [x] anti_cold_boot status
 - [x] fix version install 0.1
-- [ ] in kali_wsl anti_cold_boot is notworking(got error: permission denied)
+- [x] in kali_wsl anti_cold_boot is notworking(got error: permission denied)
 
 
 ## License
